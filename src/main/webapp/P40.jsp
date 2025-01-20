@@ -18,17 +18,17 @@
     <img src="img/rog.png" alt="TMCロゴ">
     <h1>TMC カーシェア</h1>
     <div class="login-buttons">
-        <button class="member" onclick="location.href='P4.html'" >会員登録申請はこちら</button>
-        <button class="login" onclick="location.href='P29.html'">予約・ログイン ▶</button>
+        <button class="member" onclick="location.href='P4.jsp'" >会員登録申請はこちら</button>
+        <button class="login" onclick="location.href='P29.jsp'">予約・ログイン ▶</button>
     </div>
 </header>
 
 <nav class="nav">
     <ul>
-        <li class="nav-item"><a href="../../html/home/P49.html">ステーション検索</a></li>
+        <li class="nav-item"><a href="P49.html">ステーション検索</a></li>
         <li class="nav-item active"><a href="P40.jsp">料金</a></li>
-        <li class="nav-item"><a href="../../html/home/P43.html">利用方法</a></li>
-        <li class="nav-item"><a href="../../html/home/P46.html">車種</a></li>
+        <li class="nav-item"><a href="P43.jsp">利用方法</a></li>
+        <li class="nav-item"><a href="P46.jsp">車種</a></li>
     </ul>
 </nav>
 
