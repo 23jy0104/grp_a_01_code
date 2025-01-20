@@ -35,7 +35,7 @@
 <p>現在は下記3点からお選びいただけます。また、ご要望等がございましたら今後増える場合がございます。</p>
 <div class="image-container">
     <h2>NISSAN</h2>
-    <img src="../../img/NISSAN.jpg" alt="BNR32型 skyline Nismo" width="239" height="512" class="large-image">
+    <img src="img/NISSAN.jpg" alt="BNR32型 skyline Nismo" width="239" height="512" class="large-image">
     <div class="carname">
         <p>BNR32型 skyline Nism</p>
     </div>
@@ -46,7 +46,7 @@
 </div>
 <div class="image-r">
     <h2>HONDA</h2>
-    <img src="../../img/NSX NA-1型.jpg" alt="NSX NA-1型type-R" width="239" height="512" class="large-image">
+    <img src="img/NSX NA-1型.jpg" alt="NSX NA-1型type-R" width="239" height="512" class="large-image">
     <div class="carname">
         <p>NSX NA-1型<br>type-R
         </p>
@@ -59,7 +59,7 @@
 </div>
 <div class="image-container">
     <h2>HONDA</h2>
-    <img src="../../img/NISSAN2.jpg" alt="GT-R R35 Nismo Special Edition T-spec" class="large-image">
+    <img src="img/NISSAN2.jpg" alt="GT-R R35 Nismo Special Edition T-spec" class="large-image">
     <div class="carname">
         <p>GT-R R35 Nismo<br>Special Edition T-spec
         </p>
