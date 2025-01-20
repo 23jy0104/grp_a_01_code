@@ -39,13 +39,13 @@
                 <th class="highlight">料金</th>
             </tr>
             <tr>
-                <td><a href="P40.html" class="link active">利用料金</a></td>
+                <td><a href="P40.jsp" class="link active">利用料金</a></td>
             </tr>
             <tr>
-                <td><a href="P41.html" class="link">補償制度</a></td>
+                <td><a href="P41.jsp" class="link">補償制度</a></td>
             </tr>
             <tr>
-                <td><a href="P42.html" class="link">延長、超過料金について</a></td>
+                <td><a href="P42.jsp" class="link">延長、超過料金について</a></td>
             </tr>
         </table>
     </div>

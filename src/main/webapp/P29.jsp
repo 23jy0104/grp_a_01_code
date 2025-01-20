@@ -23,9 +23,9 @@
     </div>
     <button type="submit" onclick="location.href='P53.html'" class="btn">ログイン</button>
     <div class="links">
-        <a href="P31.html">パスワードをお忘れの方</a>
-        <a href="P4.html">新規会員の方はこちら</a>
-        <a href="top.html">ホームページへ</a>
+        <a href="P31.jsp">パスワードをお忘れの方</a>
+        <a href="P4.jsp">新規会員の方はこちら</a>
+        <a href="top.jsp">ホームページへ</a>
     </div>
 </body>
 </html>

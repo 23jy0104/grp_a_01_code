@@ -17,17 +17,17 @@
     <img src="img/rog.png" alt="TMCロゴ">
     <h1>TMC カーシェア</h1>
     <div class="login-buttons">
-        <button class="member" onclick="location.href='P4.html'" >会員登録申請はこちら</button>
-        <button class="login" onclick="location.href='UC01.html'">予約・ログイン ▶</button>
+        <button class="member" onclick="location.href='P4.jsp'" >会員登録申請はこちら</button>
+        <button class="login" onclick="location.href='P29.jsp'">予約・ログイン ▶</button>
     </div>
 </header>
 
 <nav class="nav">
     <ul>
-        <li class="nav-item"><a href="../../html/home/P49.html">ステーション検索</a></li>
-        <li class="nav-item"><a href="../../html/home/P40.html">料金</a></li>
-        <li class="nav-item active"><a href="../../html/home/P43.html">利用方法</a></li>
-        <li class="nav-item"><a href="../../html/home/P46.html">車種</a></li>
+        <li class="nav-item"><a href="P49.jsp">ステーション検索</a></li>
+        <li class="nav-item"><a href="P40.jsp">料金</a></li>
+        <li class="nav-item active"><a href="P43.jsp">利用方法</a></li>
+        <li class="nav-item"><a href="P46.jsp">車種</a></li>
     </ul>
 </nav>
 
@@ -38,13 +38,13 @@
                 <th class="highlight">料金</th>
             </tr>
             <tr>
-                <td><a href="P40.html" class="link">利用料金</a></td>
+                <td><a href="P40.jsp" class="link">利用料金</a></td>
             </tr>
             <tr>
-                <td><a href="P41.html" class="link">補償制度</a></td>
+                <td><a href="P41.jsp" class="link">補償制度</a></td>
             </tr>
             <tr>
-                <td><a href="P42.html" class="link">延長、超過料金について</a></td>
+                <td><a href="P42.jsp" class="link">延長、超過料金について</a></td>
             </tr>
         </table>
     </div>

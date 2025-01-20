@@ -49,7 +49,7 @@
     <div id="error-message" style="color: red; margin-bottom: 10px;"></div>
     
     <div class="login-container">
-        <form onsubmit="validateForm(event)" action="P38.html" method="post">
+        <form onsubmit="validateForm(event)" action="P38.jsp" method="post">
             <table>
                 <tr>
                     <td><label for="password">新規パスワード入力<span style="color: red;">【必須】</span></label></td>
@@ -67,7 +67,7 @@
                 </tr>
             </table>
             <div class="button-container">
-                <button type="button" onclick="location.href='P29.html'" class="btn">キャンセル</button>
+                <button type="button" onclick="location.href='P29.jsp'" class="btn">キャンセル</button>
                 <button type="submit" class="btn">再設定</button>
             </div>
         </form>
