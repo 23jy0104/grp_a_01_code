@@ -1,6 +1,8 @@
 package model;
+import java.io.Serializable;
 
-public class Maker {
+
+public class Maker implements Serializable{
 	private String makerId;
 	private  String mekerName;
 	

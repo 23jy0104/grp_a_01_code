@@ -1,6 +1,8 @@
 package model;
 
-public class Station {
+import java.io.Serializable;
+
+public class Station implements Serializable{
 	private String stationId;
 	private String stationName;
 	private String stationAddress;

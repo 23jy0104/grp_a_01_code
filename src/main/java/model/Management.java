@@ -1,6 +1,8 @@
 package model;
 
-public class Management {
+import java.io.Serializable;
+
+public class Management implements Serializable{
 	private String managementId;
 	private String managementPassword;
 	
