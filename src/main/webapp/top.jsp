@@ -52,7 +52,7 @@
 </div>
 <div id="step1" class="step active">
     <h2>ステップ 1 座席の前後の調整をしよう</h2>
-    <img src="../../img/drive-basic_il001.png">
+    <img src="img/drive-basic_il001.png">
     <p>座席に深く腰掛け背筋を伸ばして座り、まずは座席の前後を調整しよう。
 
         座席の前後はブレーキペダルをいっぱいに踏んでもひざに軽く余裕があるくように調整しよう。
@@ -61,7 +61,7 @@
 
 <div id="step2" class="step">
     <h2>ステップ 2 座席の角度を調整しよう</h2>
-    <img src="../../img/drive-basic_il002.png">
+    <img src="img/drive-basic_il002.png">
     <p>座席の前後の調整が終わったら、角度の調整をしよう。
 
         角度は背筋をのばし、ハンドルの一番上を両手で握った際に、背中がシートから離れない位置に調整しよう
@@ -72,7 +72,7 @@
 
 <div id="step3" class="step">
     <h2>ステップ 3 ハンドル位置を調整しよう</h2>
-    <img src="../../img/drive-basic_il003.png">
+    <img src="img/drive-basic_il003.png">
     <p>ハンドルの高さや前後の位置を調整しよう。
 
         ハンドルは9時15分～10時10分の間の位置をにぎろう。
@@ -82,7 +82,7 @@
 
 <div id="step4" class="step">
     <h2>ステップ 4 ルームミラーをあわせよう</h2>
-    <img src="../../img/drive-basic_il004.png">
+    <img src="img/drive-basic_il004.png">
     <p>真後ろがミラーの中央に写るように整えよう。
 
         整えるときに姿勢を変えてしまうと、運転するときに見える景色と変わってしまうため、必ず姿勢は変えずに目だけで確認しながら調節しよう。
@@ -90,7 +90,7 @@
 
 <div id="step5" class="step">
     <h2>ステップ 5 サイドミラーをあわせよう</h2>
-    <img src="../../img/drive-basic_il005.png">
+    <img src="img/drive-basic_il005.png">
     <p>車体がミラーの約1/4～1/3写るようにし、路面が1/2～2/3写るように整えよう。
 
         ルームミラーとサイドミラーを正しく調整することで周りの状況が把握しやすくなり、事故を防ぐことにつながります。</p>
