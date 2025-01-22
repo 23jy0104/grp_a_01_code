@@ -15,7 +15,7 @@
     <div class="header">
         <img src="img/rog.png"alt="TMC Logo" class="logo">
         <h1>TMC カーシェア</h1>
-        <button class="button" onclick="location.href='P29.html'">予約・ログイン </button>
+        <button class="button" onclick="location.href='P29.jsp'">予約・ログイン </button>
     </div>
     <h2>
         登録手続きに必要なもの
@@ -44,7 +44,7 @@
                 ・住民基本台帳カード<br>
                 ・金融機関カード及び特別永住者証明書（両面）
                 <div class="btn-container">
-                    <a href="UC03_01.html" class="btn">確認しました</a>
+                    <a href="UC03_01.jsp" class="btn">確認しました</a>
                 </div>
             </td>
         </tr>
