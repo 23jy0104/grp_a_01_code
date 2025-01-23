@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@page import ="model.Station.java" %>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -46,7 +47,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>新宿1ステーション</td>
+                    <td><%=station.getName() %></td>
                     <td>東京都新宿区百人町6-1-4</td>
                     <td>
                         <a href="P56.jsp">
@@ -55,7 +56,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>新宿2ステーション</td>
+                    <td><%=station.getName() %></td>
                     <td>東京都新宿区西新宿5-2-1</td>
                     <td>
                         <a href="P56.jsp">
@@ -64,7 +65,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>新宿3ステーション</td>
+                    <td><%=station.getName() %></td>
                     <td>東京都新宿区西落合3-8-15</td>
                     <td>
                         <a href="P56.jsp">

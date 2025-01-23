@@ -1,14 +1,16 @@
 package model;
 import java.io.Serializable;
+import java.util.Date;
 
 public class Customer implements Serializable{
+	private String customerId;
 	private String customerName;
 	private String customerPassword;
 	private String phoneNumber;
 	private String email;
-	private String birthDate;
+	private Date birthDate;
 	private String licenceNumber;
-	private String licenceDate;
+	private Date licenceDate;
 	private String customerAddress;
 	private String creditId;
 	private String omote;
@@ -17,11 +19,12 @@ public class Customer implements Serializable{
 	public Customer() {
 		super();
 	}
-	
-	public Customer(String customerName, String customerPassword, String phoneNumber, String email, String birthDate,
-			String licenceNumber, String licenceDate, String customerAddress, String creditId, String omote,
-			String ura) {
+
+	public Customer(String customerId, String customerName, String customerPassword, String phoneNumber, String email,
+			Date birthDate, String licenceNumber, Date licenceDate, String customerAddress, String creditId,
+			String omote, String ura) {
 		super();
+		this.customerId = customerId;
 		this.customerName = customerName;
 		this.customerPassword = customerPassword;
 		this.phoneNumber = phoneNumber;
@@ -33,6 +36,16 @@ public class Customer implements Serializable{
 		this.creditId = creditId;
 		this.omote = omote;
 		this.ura = ura;
+	}
+	
+	
+
+	public String getCustomerId() {
+		return customerId;
+	}
+
+	public void setCustomerId(String customerId) {
+		this.customerId = customerId;
 	}
 
 	public String getCustomerName() {
@@ -67,11 +80,11 @@ public class Customer implements Serializable{
 		this.email = email;
 	}
 
-	public String getBirthDate() {
+	public Date getBirthDate() {
 		return birthDate;
 	}
 
-	public void setBirthDate(String birthDate) {
+	public void setBirthDate(Date birthDate) {
 		this.birthDate = birthDate;
 	}
 
@@ -83,11 +96,11 @@ public class Customer implements Serializable{
 		this.licenceNumber = licenceNumber;
 	}
 
-	public String getLicenceDate() {
+	public Date getLicenceDate() {
 		return licenceDate;
 	}
 
-	public void setLicenceDate(String licenceDate) {
+	public void setLicenceDate(Date licenceDate) {
 		this.licenceDate = licenceDate;
 	}
 
