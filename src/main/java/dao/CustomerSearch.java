@@ -12,38 +12,33 @@ import model.Customer;
 
 public class CustomerSearch {
 	private Connection con=null;
-	
-	public Connection createConnection() throws SQLException{
-		String url="jdbc:mysql://localhost:3306/23jya01";
-		String user="23jya01";
-		String password="23jya01";
+
+	public CustomerSearch(Connection con) {
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
-			con=DriverManager.getConnection(url,user,password);
+			Class.forName("com.mysql.jdbc.Drivaer");
 		} catch (ClassNotFoundException e) {
-			System.err.println("JDBCドライバーが見つかりません。クラスパスを確認してください。");
+			// TODO 自動生成された catch ブロック
 			e.printStackTrace();
-		} catch (SQLException e){
-        	System.out.println("CustomerSearchDBAccess");
-            System.err.println("データベース接続に失敗しました。接続情報を確認してください。");
-            e.printStackTrace();
-            throw new SQLException("DB接続に失敗しました！",e);
-        }
-		return con;
+		}
+		try {
+			con=DriverManager.getConnection("jdbc:mysql://10.64.144.5:3306/23jya01?characterEncoding=UTF-8","23jya01","23jya01");
+		} catch (SQLException e) {
+			// TODO 自動生成された catch ブロック
+			e.printStackTrace();
+			System.exit(1);
+		}
+		
 	}
-	public void closeConnection() {
-        try {
-            if (con != null) {
-                con.close();
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-    }
+	public void connectionClose() {
+		 try {
+			con.close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	 }
 	public ArrayList<Customer> searchCustomer(String name,Date birthDate){
 		ArrayList<Customer>cs =new ArrayList<>();
 		try {
-			con=createConnection();
 			String sql="select customerName,customerId,phoNumber,email,birthDate from Customer where cutomerName Like ?  AND birthDate ?";
 			PreparedStatement state=con.prepareStatement(sql);
 			state.setString(1, "%"+name+"%");
@@ -56,6 +51,7 @@ public class CustomerSearch {
 				cus.setPhoneNumber(rs.getNString("phoneNumber"));
 				cus.setEmail(rs.getString(rs.getString("email")));
 				cus.setBirthDate(rs.getDate("birthDate"));
+				cs.add(cus);
 			}
 		} catch (SQLException e) {
 			// TODO 自動生成された catch ブロック
