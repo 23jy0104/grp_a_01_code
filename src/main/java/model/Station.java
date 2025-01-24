@@ -6,6 +6,7 @@ public class Station implements Serializable{
 	private String stationId;
 	private String stationName;
 	private String stationAddress;
+	
 	public String getStationId() {
 		return stationId;
 	}
