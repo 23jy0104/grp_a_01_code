@@ -1,4 +1,4 @@
-package model;
+package carsharehome;
 
 
 import java.io.IOException;
