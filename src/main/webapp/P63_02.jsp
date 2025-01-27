@@ -32,7 +32,7 @@
             <div class="flex-container">
                 <div class="image-section"></div>
                     <img src="../../img/NISSAN.jpg" alt="サンプル画像" style="width: 400px; height: auto; margin-top: 10px;">
-                    <p>BNR32型 skyline Nismo<br>新宿 わ ‥32<br>（ダークシルバー）</p>
+                    <p><%=carName %><br><%=carNumber %><br>（ダークシルバー）</p>
                 </div>
                 <div class="table-section">
                     <table>
