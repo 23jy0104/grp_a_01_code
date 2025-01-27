@@ -15,13 +15,14 @@ private Connection con=null;
 
 	public CustomerTouroku() {
 		try {
-		Class.forName("com.mysql.jdbc.Drivaer");
+		Class.forName("com.mysql.jdbc.Driver");
 		} catch (ClassNotFoundException e) {
 		// TODO 自動生成された catch ブロック
 		e.printStackTrace();
+		System.exit(1);
 		}
 		try {
-		con=DriverManager.getConnection("jdbc:mysql://10.64.144.5:3306/23jya01","23jya01","23jya01");
+		con=DriverManager.getConnection("jdbc:mysql://10.64.144.5:3306/23jya01?characterEncoding=UTF-8","23jya01","23jya01");
 		} catch (SQLException e) {
 		// TODO 自動生成された catch ブロック
 		e.printStackTrace();
