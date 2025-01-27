@@ -31,7 +31,7 @@
         <h2>該当車種</h2>
         <div class="additional-info-container" id="additionalInfo">
             <div>
-                <label>車種: BNR32型 skyline Nismo</label>
+                <label>車種: <%=carName %></label>
                 <img src="img/NISSAN.jpg" alt="車" />
             </div>
             <table class="info-table">
